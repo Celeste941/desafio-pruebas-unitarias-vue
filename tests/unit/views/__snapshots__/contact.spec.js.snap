@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test de vista ContacView.vue Match de snapshot con ContacView.vue 1`] = `
+<section>
+  <h1>Sección de Contacto</h1>
+</section>
+`;
