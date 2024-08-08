@@ -2,6 +2,6 @@
 
 exports[`Test de vista aboutView.vue Match de snapshot con AboutView.vue 1`] = `
 <div class="about">
-  <h1>Sección about</h1>
+  <h1>Sección de about</h1>
 </div>
 `;

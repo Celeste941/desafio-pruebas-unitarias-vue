@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test de vista Home Match de snapshot con HomeView.vue 1`] = `
+<section>
+  <h1>Sección de Home</h1>
+</section>
+`;

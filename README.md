@@ -5,14 +5,15 @@ En este desafío validaremos nuestros conocimientos de Pruebas Unitarias en un e
 Consta de una aplicación sencilla, en la cual se implementan pruebas sobre una ruta definida. En esta ocasión, debemos seguir escalando esta aplicación e incorporar nuevas rutas y además aplicar snapshots para validar la estructura HTML.
 
 ## Requerimientos
-1- Dentro de la aplicación entregada como apoyo, define las rutas:
+1. Crea un proyecto desde 0, con Vue Router y Jest como dependencias y al menos
+las siguientes vistas:
 
 - **About**
 - **Contact**
 
-2- En el directorio de /tests/unit/views, incorpora los nuevos tests para las vistas antes mencionadas. Recuerda que al definir una nueva ruta se debe generar su componente.
+2. En el directorio de /tests/unit/views, incorpora los nuevos tests para las vistas antes mencionadas. Recuerda que al definir una nueva ruta se debe generar su componente.(Crea un test para probar vue-router en las rutas /about y /contact). [Prueba - rutas](./tests/unit/views/rutas.spec.js#1)
 
-3- Genera una prueba que permita crear un snapshot de la estructura HTML del componente ContactView.vue. [Prueba 1](./tests/unit/views/contact.spec.js#1).
+3- Genera una prueba que permita crear un snapshot de la estructura HTML del componente HomeView.vue. [Prueba 1](./tests/unit/views/home.spec.js#1).
 
 4- Genera una prueba que permita crear un snapshot de la estructura HTML del componente About.vue. [Prueba 2](./tests/unit/views/about.spec.js#1).
 
@@ -29,3 +30,9 @@ Consta de una aplicación sencilla, en la cual se implementan pruebas sobre una 
 [Codigo agregado para que funcione el testing](./jest.config.js#3).
 
 2. No se genero ningún diseño para los componentes ya que el desafio constaba solo de crear los dos componentes y hacer el testeo.
+
+3. Aparece una advertencia al realizar el testeo:
+ 
+![Imagen-advertencia](./public/advertencia.png).
+
+Todas pasan al final.
