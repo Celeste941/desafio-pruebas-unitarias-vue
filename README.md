@@ -35,4 +35,4 @@ las siguientes vistas:
  
 ![Imagen-advertencia](./public/advertencia.png).
 
-Todas pasan al final.
+Todos los test pasan igual.
